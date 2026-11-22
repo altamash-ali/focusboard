@@ -38,7 +38,7 @@ Make sure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone YOUR_GITHUB_REPOSITORY_URL
+   git clone (https://github.com/altamash-ali/focusboard.git)
    ```
 
 2. Open the project folder:
@@ -111,7 +111,7 @@ FocusBoard uses the browser's Local Storage to save task information. Tasks rema
 
 ## Live Demo
 
-_deployed application URL._
+[_deployed application URL._](https://focusboard-sand.vercel.app/)
 
 ## Author
 
