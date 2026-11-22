@@ -1,0 +1,128 @@
+
+@media (max-width: 1100px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sidebar {
+    width: 210px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 75px;
+    padding: 22px 10px;
+  }
+
+  .brand {
+    justify-content: center;
+  }
+
+  .brand h2,
+  .nav-heading,
+  .nav-link:not(.active),
+  .nav-link.active {
+    font-size: 0;
+  }
+
+  .nav-link {
+    justify-content: center;
+    padding: 13px 5px;
+  }
+
+  .brand-icon {
+    flex-shrink: 0;
+  }
+
+  .header {
+    padding: 16px;
+    flex-wrap: wrap;
+  }
+
+  .header-actions {
+    width: 100%;
+  }
+
+  .search-box {
+    flex: 1;
+  }
+
+  .search-box input {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .profile span {
+    display: none;
+  }
+
+  .dashboard-content {
+    padding: 20px 15px;
+  }
+
+  .task-item {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .task-actions {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar {
+    width: 58px;
+    padding: 18px 6px;
+  }
+
+  .brand h2,
+  .add-task-btn span {
+    display: none;
+  }
+
+  .add-task-btn {
+    display: flex;
+    padding: 12px 5px;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .welcome-section h1 {
+    font-size: 21px;
+  }
+
+  .header-title h2 {
+    font-size: 18px;
+  }
+
+  .header-actions {
+    gap: 10px;
+  }
+
+  .task-item {
+    padding: 15px;
+  }
+
+  .task-meta {
+    gap: 8px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .header-add-btn {
+    padding: 10px 12px;
+  }
+
+  .header-add-btn span {
+    display: none;
+  }
+}
+
+
